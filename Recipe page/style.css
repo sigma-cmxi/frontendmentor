@@ -1,0 +1,26 @@
+:root {
+/* Color styles */
+--dark--charcoal: #312E2C;
+--dark--raspberry: #7A284E;
+--brandy--red: #854632;
+--wenge--brown: #5F564D;
+--eggshell: #F3E5D7;
+--white--coffee: #E3DDD7;
+--snow: #FFF7FB;
+--white: #FFFFFF;
+
+/* Text-size styles */
+--heading--l: 40px;
+--heading--m: 28px;
+--heading--s: 20px;
+--body--regular: 16px;
+--body--bold: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
