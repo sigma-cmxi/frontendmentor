@@ -1,0 +1,108 @@
+:root {
+    --yellow: #F4D04E;
+    --white:#FFFFFF;
+    --gray-950:#111111;
+    --gray-500:#6B6B6B;
+    --Spacing-200:16px;
+    --Spacing-150:12px;
+    --Spacing-100:8px;
+    --Spacing-50:4px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    font-family: "Figtree" , sans-serif;
+    font-size: 62.5%;
+} 
+.Text-Preset-1 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+.Text-Preset-2 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.Text-Preset-3 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.Text-Preset-4 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+body {
+    background-color: var(--yellow);
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: var(--white);
+    box-shadow: 8px 8px 0 0 #000000;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--gray-950);
+    min-width: 330px;
+    max-width: 380px;
+    margin: auto;
+}
+.img {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.img img {
+    max-width: 100%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 24px;
+    gap: 12px;
+}
+.text span {
+    background-color: var(--yellow);
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: var(--gray-950);
+}
+.text p:nth-of-type(1) {
+    color: var(--gray-950);
+}
+.text h3 {
+    color: var(--gray-950);
+}
+.text p:nth-of-type(2) {
+    color: var(--gray-500);
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+}
+.profile img {
+    width: 32px;
+    height: auto;
+}
