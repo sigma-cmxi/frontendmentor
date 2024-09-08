@@ -81,6 +81,7 @@ hr {
 .head p {
     font-size: var(--body--regular);
     line-height: 1.5;
+    font-family: "outfit";
     color: var(--wenge--brown);
 }
 .Preparation {
@@ -207,4 +208,57 @@ hr {
     color: var(--brandy--red);
     font-size: var(--body--bold);
     font-weight: 700;
+}
+.Nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+.Nutrition h3 {
+    color: var(--brandy--red);
+    font-size: var(--heading--m);
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+.Nutrition p {
+    font-size: var(--body--regular);
+    color: var(--wenge--brown);
+    font-family: "outfit";
+}
+.Nutrition table {
+    width: 100%;
+
+}
+.Nutrition tr td:nth-of-type(1) {
+    color: var(--wenge--brown);
+    font-size: var(--body--regular);
+    font-family: "outfit";
+}
+.Nutrition tr td:nth-of-type(2) {
+    color: var(--brandy--red);
+    font-size: var(--body--bold);
+    font-weight: 700;
+    font-family: "outfit";
+}
+.Nutrition tr td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.Nutrition tr:not(:last-child) td {
+    border-bottom: solid var(--white--coffee) 1px ;
+}
+@media screen and (max-width:500px) {
+    .card {
+        margin: auto;
+        border-radius: 0;
+        padding: 0;
+    }
+    .img {
+        border-radius: 0;
+    }
+    .recipe {
+        padding: 40px;
+    }
 }
