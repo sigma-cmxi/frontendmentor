@@ -23,4 +23,102 @@
 }
 html {
     font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: var(--eggshell);
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: var(--white);
+    border-radius: 24px;
+    padding: 40px;
+    margin: auto;
+    max-width: 740px;
+}
+.img {
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+.img img {
+    max-width: 100%;
+}
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.head h3 {
+    color: var(--dark--charcoal);
+    font-size: var(--heading--l);
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+.head p {
+    font-size: var(--body--regular);
+    line-height: 1.5;
+    color: var(--wenge--brown);
+}
+.Preparation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--snow);
+    padding: 28px;
+    border-radius: 12px;
+    width: 100%;
+    gap: 16px;
+}
+.Preparation h3 {
+    color: var(--dark--raspberry);
+    font-size: var(--heading--s);
+    font-weight: 600;
+    font-family: "outfit";
+}
+.Preparation ul {
+    list-style: none;
+}
+.Preparation ul li {
+    position: relative;
+    color: var(--wenge--brown);
+    font-size: var(--body--regular);
+    font-family: "outfit";
+    font-weight: 400;
+    margin-left: 32px;
+}
+.Preparation ul li span {
+    font-weight: 700;
+
+
+}
+.Preparation ul li::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--dark--raspberry);
+    left: -32px;
+    top: 50%;
+    transform: translateY(-50%);
 }
